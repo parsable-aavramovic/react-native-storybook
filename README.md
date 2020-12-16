@@ -31,8 +31,7 @@ $ sudo gem install cocoapods
 ### Platform: Android
 
 -   Install [Android Studio](https://developer.android.com/studio/index.html)
--   Follow official [guide](https://reactnative.dev/docs/getting-started) for
-    Android
+-   Follow official [guide](https://reactnative.dev/docs/getting-started) for Android
 
 ## Installation
 
@@ -83,8 +82,8 @@ $ yarn run ios:dev
 
 ## Storybook usage docs
 
-[How to write stories](https://storybook.js.org/docs/react/writing-stories/introduction)
-[Storybook setup and testing](https://www.learnstorybook.com/intro-to-storybook/react-native/en/get-started/)
+- [How to write stories](https://storybook.js.org/docs/react/writing-stories/introduction)
+- [Storybook setup and testing](https://www.learnstorybook.com/intro-to-storybook/react-native/en/get-started/)
 
 
 ### Tech Stack

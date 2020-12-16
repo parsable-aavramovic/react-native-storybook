@@ -10,9 +10,9 @@ const Button = ({title, onPress, primary, secondary, disabled, ...props}) => (
     activeOpacity={0.8}
     disabled={disabled}
     {...props}>
-			<S.Text primary={primary} secondary={secondary}>
-				{title}
-			</S.Text>
+    <S.Text primary={primary} secondary={secondary}>
+      {title}
+    </S.Text>
   </S.Button>
 );
 
