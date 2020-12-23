@@ -5,7 +5,6 @@ import { getStorybookUI, configure, addDecorator } from '@storybook/react-native
 import { withKnobs } from '@storybook/addon-knobs';
 import { loadStories } from './storyLoader'
 import './rn-addons';
-import { APP_NAME } from './../env.json';
 
 // enables knobs for all stories
 addDecorator(withKnobs);
@@ -21,6 +20,6 @@ const StorybookUIRoot = getStorybookUI({});
 
 // If you are using React Native vanilla and after installation you don't see your app name here, write it manually.
 // If you use Expo you should remove this line.
-AppRegistry.registerComponent(APP_NAME, () => StorybookUIRoot);
+AppRegistry.registerComponent('ReactNativeStorybook', () => StorybookUIRoot);
 
 export default StorybookUIRoot;

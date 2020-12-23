@@ -5,16 +5,12 @@
   "scripts": {
     "android": "react-native run-android",
     "ios": "react-native run-ios",
-    "ios:storybook": "yarn env:storybook && yarn prestorybook && yarn ios",
-    "ios:dev": "yarn env:dev && yarn ios",
     "start": "react-native start",
     "test": "jest",
     "lint": "eslint .",
-    "storybook": "yarn env:storybook && start-storybook -p 7007",
+    "storybook": "start-storybook -p 7007",
     "build-storybook": "build-storybook",
-    "prestorybook": "rnstl",
-    "env:storybook": "node scripts/set-environment.js storybook",
-    "env:dev": "node scripts/set-environment.js development"
+    "prestorybook": "rnstl"
   },
   "dependencies": {
     "react": "16.13.1",
